@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .Cookie{
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;      
+        }
+        label, input{
+            border: 5px solid black;
+            border-color: black;
+            border-radius: 0px 20px 0px 20px;
+            padding: 6px 6px 6px 6px;
+            box-shadow: 15px 5px 15px 5px;
+            margin: 20px 20px 20px 5px;
+        }
+        img{
+            border: 10px solid black;
+            float: right;
+            width: 1000px;
+            height: 1000px;
+            margin-top: none;
+        }
+        p, h1{
+            width: 350px;
+        }
+        #nav-secundario{
+            grid-row: 3/span 2;
+        }
+
+    </style>
+</head>
+<body class="Cookie">
+    <h1>Pague seguro</h1>
+    <p>Compra de Devil may cry 5</p>
+    <img id="nav-secundario" src="Devil_May_Cry_5.jpg" alt="">
+<form action="/action_page.php">
+    <label for="fname">Nome Completo:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+    <label for="lname">RG:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">Email:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">Telefone:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">Tres numero atras do cartão:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">Os numeros da frente do cartão:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">Data de validade:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="lname">CPF:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <p>Preço total é: 29,90 (50% de desconto no boleto)</p>
+    <form action="/action_page.php">
+        <input style="box-shadow: none;" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> cartão debito</label><br>
+        <input style="box-shadow: none"; type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> cartão de credito</label><br>
+        <input style="box-shadow: none"; type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Boleto</label><br><br>   
+      </form> 
+    <input type="submit" value="Submit">
+  </form> 
+</body>
+</html>
